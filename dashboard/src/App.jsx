@@ -14,11 +14,12 @@ const App = () => {
         </div>
         </nav>
 
+        {/* Mission section */}
         <div className='flex flex-col items-center justify-center text-4xl mt-25 mb-25 outline outline-2 outline-offset-2 rounded-full'>
           <h2 className='text-5xl text-bold'>Our Mission</h2>
           <p >Our Mission is to provide you the best learning experience <br/> and crack the Exams at the comfort of your home, and <br/> We provide all the courses in one stop.</p>
         </div>    
-       
+       {/* College image section */ }
         <div className="flex bg-black rounded-xl justify-center">
           <div className="flex flex-col items-center justify-center">
             <h2 className='text-4xl text-white'>Colleges we collaborate with</h2>
@@ -30,11 +31,14 @@ const App = () => {
           </div>               
         </div>
 
+        {/* About us section */}
+
         <div className='flex flex-col items-center justify-center text-4xl mt-25 mb-25 outline outline-2 outline-offset-2 rounded-full'>
           <h2 className='text-5xl text-bold'>About us</h2>
           <p >We are a team of students and professionals working <br/> together to provide the best courses at the comfort of your home. <br/> If you have any queries, feel free to contact us.</p>
         </div>    
 
+        {/* Footer section */}
         <footer>
           <div class = "bg-black flex flex-col items-center justify-center rounded-xl mt-15"> 
                <div className="flex justify-between items-center">
