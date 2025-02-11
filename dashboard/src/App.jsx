@@ -30,6 +30,11 @@ const App = () => {
           </div>               
         </div>
 
+        <div className='flex flex-col items-center justify-center text-4xl mt-25 mb-25 outline outline-2 outline-offset-2 rounded-full'>
+          <h2 className='text-5xl text-bold'>About us</h2>
+          <p >We are a team of students and professionals working <br/> together to provide the best courses at the comfort of your home. <br/> If you have any queries, feel free to contact us.</p>
+        </div>    
+
         <footer>
           <div class = "bg-black flex flex-col items-center justify-center rounded-xl mt-15"> 
                <div className="flex justify-between items-center">
